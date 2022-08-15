@@ -1,0 +1,31 @@
+clear
+python .ok.py
+
+
+echo
+printf '[\033[1;92m?\033[0m\033[1m] What You Want To Do \033[1;91mEncode\033[0m\033[1m/\033[1;92mDecode\033[0m\033[1m ? [E/D] '
+
+read input
+
+if [[ $input = "e" ]] || [[ $input = "E" ]] || [[ $input = "Encode" ]] || [[ $input = "encode" ]] || [[ $input = "ENCODE" ]]
+        then echo
+echo -e "[\033[1;91m!\033[0m\033[1m] Enter Your Text To Encode"
+read -p 'CLAY-Hacker ==> ' encode
+encode=`echo -n $encode | base64`
+echo
+echo "Encoded text is : $encode"
+echo
+
+elif [[ $input = "d" ]] || [[ $input = "D" ]] || [[ $input = "Decode" ]] || [[ $input = "decode" ]] || [[ $input = "DECODE" ]]
+        then echo
+echo -e "[\033[1;92m!\033[0m\033[1m] Enter Your Encoded Text To Decode"
+read -p 'CLAY-Hacker ==> ' decode
+decode=`echo -n $decode | base64 --decode`
+echo
+echo "Decoded text is : $decode"
+echo
+else echo
+echo -e '[\033[1;91m!\033[0m\033[1m] Wrong Input !\033[0m'
+echo
+fi
+python .+en.py

@@ -1,0 +1,13 @@
+ 
+ [01] Termux Setup Properly  | [02] Location Tracker
+ [03] Termux Banner          | [04] PowerFul Encryption
+ [05] Termux Login Banner    | [06] WhatsApp Chat
+ [07] DDOS Attack            | [08] Install Kali
+ [09] SMS-BOMBER             | [10] Old ID [ PAID ]
+ [11] MAIL-BOMBER            | [12] Youtube To Mp3
+ [13] WiFi Jamming           | [14] YT Tag Finder
+ [15] ENCODE & DECODE TEXT   | [16] Install Ngrok
+ [17] TERMUX Extra Key       | [18] B/V/E-Moji Encrypter !!
+ [19] Advance Encrypter      | [20] Short URL [ NORMAL ]
+ [21] Mask/Short URL         | [22] Update Tool-CH
+ [23] About US               | [24] !! EXIT !!
